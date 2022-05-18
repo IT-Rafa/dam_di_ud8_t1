@@ -31,13 +31,12 @@ public class CalculandoTest extends TestCase {
      */
     public void testAdd() {
         System.out.println("add");
-        double number1 = 0.0;
-        double number2 = 0.0;
+        double number1 = 200.002;
+        double number2 = 100.001;
         Calculando instance = new Calculando();
-        double expResult = 0.0;
+        double expResult = 300.003;
         double result = instance.add(number1, number2);
         assertEquals(expResult, result, 0.0);
-
     }
 
     /**
@@ -45,10 +44,10 @@ public class CalculandoTest extends TestCase {
      */
     public void testSubtract() {
         System.out.println("subtract");
-        double number1 = 0.0;
-        double number2 = 0.0;
+        double number1 = 200.002;
+        double number2 = 100.001;
         Calculando instance = new Calculando();
-        double expResult = 0.0;
+        double expResult = 100.001;
         double result = instance.subtract(number1, number2);
         assertEquals(expResult, result, 0.0);
 
@@ -59,10 +58,10 @@ public class CalculandoTest extends TestCase {
      */
     public void testMultiply() {
         System.out.println("multiply");
-        double number1 = 0.0;
-        double number2 = 0.0;
+        double number1 = 100.001;
+        double number2 = 200.002;
         Calculando instance = new Calculando();
-        double expResult = 0.0;
+        double expResult = 20000.4;
         double result = instance.multiply(number1, number2);
         assertEquals(expResult, result, 0.0);
 
@@ -73,10 +72,10 @@ public class CalculandoTest extends TestCase {
      */
     public void testDivide() {
         System.out.println("divide");
-        double number1 = 0.0;
-        double number2 = 0.0;
+        double number1 = 200.002;
+        double number2 = 100.001;
         Calculando instance = new Calculando();
-        double expResult = 0.0;
+        double expResult = 3.0;
         double result = instance.divide(number1, number2);
         assertEquals(expResult, result, 0.0);
     }
