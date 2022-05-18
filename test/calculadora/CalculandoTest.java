@@ -37,8 +37,7 @@ public class CalculandoTest extends TestCase {
         double expResult = 0.0;
         double result = instance.add(number1, number2);
         assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
     }
 
     /**
@@ -52,8 +51,7 @@ public class CalculandoTest extends TestCase {
         double expResult = 0.0;
         double result = instance.subtract(number1, number2);
         assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
     }
 
     /**
@@ -67,8 +65,7 @@ public class CalculandoTest extends TestCase {
         double expResult = 0.0;
         double result = instance.multiply(number1, number2);
         assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
     }
 
     /**
@@ -82,8 +79,6 @@ public class CalculandoTest extends TestCase {
         double expResult = 0.0;
         double result = instance.divide(number1, number2);
         assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
